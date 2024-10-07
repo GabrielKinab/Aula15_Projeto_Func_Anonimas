@@ -1,22 +1,21 @@
-//FUNÇÕES ANÔNIMAS
-//sintaxe : ()=>()
-/*
-() - padrão de passagem de argumento em funções
-=>  : é o escopo (bloco de código) da função propriamente*/
+//Métodos facilitadores - includes, startsWith e endsWith
+//(Informações dentro da arrays)
+
+let nomes = ['Amir','Benir','Cemir'];
+console.log[nome.includes('Benir')];
+console.log[nome.includes('Amir')];
+if(nomes.includes(Amir)){
+    console.log("Nome encontraado");
+}else{
+    console.log("Nome não encontraado");
+}
+//startWith
+let alunos = 'aluno';
+console.log(aluno.startWith("alb"));
+console.log(aluno.startWith("Alb"));
+
+//endesWith
+console.log(aluno.endsWith('ano'));
+console.log(aluno.endsWith('anO'));
 
 
-function somar(a,b){
-    console.log(total);
-    let.total = a+b;
-}
-somar(2,10);
-//atribuindo uma funçao anônima a uma vaiavel
-let subtrair = (num1, num2)=>{
-    let total = num1-num2;
-    console.log(total);
-}
-subtrair(15,17);
-let numeros = [1,2,3,10];
-numeros.map((item)=>{
-console.log((item));
-});
